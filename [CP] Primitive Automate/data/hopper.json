@@ -225,7 +225,7 @@
                     "Id": "HopperRecipe",
                     "IsRecipe": true,
                     "ItemId": "(BC)275",
-                    "Price": 5000
+                    "Price": "{{HopperPrice}}"
                 }
             },
             "MoveEntries": [

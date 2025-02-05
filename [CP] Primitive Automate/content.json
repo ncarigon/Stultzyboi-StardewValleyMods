@@ -21,7 +21,12 @@
             "AllowValues": "true, false",
             "Default": "true",
             "Section": "Hopper Settings"
-        }
+        },
+		"HopperPrice": {
+			"AllowBlank": false,
+			"Default": "5000",
+            "Section": "Settings"
+        },
     },
     "Changes": [
 		{

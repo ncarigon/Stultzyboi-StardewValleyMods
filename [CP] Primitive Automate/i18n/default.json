@@ -22,4 +22,7 @@
     //HopperRemove
     "config.HopperRemove.name": "Remove Buyable Hoppers",
     "config.HopperRemove.description": "Removes the ability to purchase hoppers from Qi's Gem Shop (The regular item, not the recipe)",
+	//HopperPrice
+    "config.HopperPrice.name": "Hopper Recipe Price",
+    "config.HopperPrice.description": "The cost to buy the Hopper recipe from Robin.",
 }
