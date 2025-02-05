@@ -19,10 +19,38 @@
     "config.HopperRecipe.values.Expensive": "Gold & Clay",
     "config.HopperRecipe.values.Premium": "Iridium & Battery",
     "config.HopperRecipe.values.Vanilla": "Vanilla / No Change",
+	"config.HopperRecipe.values.Custom": "Custom",	
     //HopperRemove
     "config.HopperRemove.name": "Remove Buyable Hoppers",
     "config.HopperRemove.description": "Removes the ability to purchase hoppers from Qi's Gem Shop (The regular item, not the recipe)",
 	//HopperPrice
     "config.HopperPrice.name": "Hopper Recipe Price",
     "config.HopperPrice.description": "The cost to buy the Hopper recipe from Robin.",
+	//HopperRecipeCustom - Wood Type
+	"config.HopperRecipeCustomWoodType.name": "Required Wood Type",
+    "config.HopperRecipeCustomWoodType.description": "Specify the type of wood needed to craft a hopper.",
+	"config.HopperRecipeCustomWoodType.values.388": "Wood",
+	"config.HopperRecipeCustomWoodType.values.709": "Hardood",
+	"config.HopperRecipeCustomWoodType.values.0": "None",
+	"config.HopperRecipeCustomWoodAmount.name": "Required Wood Amount",
+    "config.HopperRecipeCustomWoodAmount.description": "Specify the amount of wood needed to craft a hopper.",
+	//HopperRecipeCustom - Metal Type
+	"config.HopperRecipeCustomMetalType.name": "Required Metal Type",
+    "config.HopperRecipeCustomMetalType.description": "Specify the type of metal needed to craft a hopper.",
+	"config.HopperRecipeCustomMetalType.values.334": "Copper Bar",
+	"config.HopperRecipeCustomMetalType.values.335": "Iron Bar",
+	"config.HopperRecipeCustomMetalType.values.336": "Gold Bar",
+	"config.HopperRecipeCustomMetalType.values.337": "Iridium Bar",
+	"config.HopperRecipeCustomMetalType.values.0": "None",
+	"config.HopperRecipeCustomMetalAmount.name": "Required Metal Amount",
+    "config.HopperRecipeCustomMetalAmount.description": "Specify the amount of metal needed to craft a hopper.",
+	//HopperRecipeCustom - Power Type
+	"config.HopperRecipeCustomPowerType.name": "Required Power Type",
+    "config.HopperRecipeCustomPowerType.description": "Specify the type of power needed to craft a hopper.",
+	"config.HopperRecipeCustomPowerType.values.910": "Radioactive Bar",
+	"config.HopperRecipeCustomPowerType.values.787": "Battery Pack",
+	"config.HopperRecipeCustomPowerType.values.330": "Clay",
+	"config.HopperRecipeCustomPowerType.values.0": "None",
+	"config.HopperRecipeCustomPowerAmount.name": "Required Power Amount",
+    "config.HopperRecipeCustomPowerAmount.description": "Specify the amount of power needed to craft a hopper.",
 }

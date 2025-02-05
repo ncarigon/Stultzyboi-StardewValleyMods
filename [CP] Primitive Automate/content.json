@@ -13,7 +13,7 @@
             "Section": "Hopper Settings"
         },
         "HopperRecipe": {
-            "AllowValues": "Budget, Cheaper, Expensive, Premium, Vanilla",
+            "AllowValues": "Budget, Cheaper, Expensive, Premium, Vanilla, Custom",
             "Default": "Cheaper",
             "Section": "Hopper Settings"
         },
@@ -27,9 +27,73 @@
 			"Default": "5000",
             "Section": "Settings"
         },
+		// Custom Recipe
+		"HopperRecipeCustomWoodType": {
+			"AllowValues": "388, 709, 0",
+			"Default": "709",
+            "Section": "Recipe"
+		},
+		"HopperRecipeCustomWoodAmount": {
+			"AllowBlank": false,
+			"Default": "10",
+            "Section": "Recipe"
+		},
+		"HopperRecipeCustomMetalType": {
+			"AllowValues": "334, 335, 336, 337, 0",
+			"Default": "337",
+            "Section": "Recipe"
+		},
+		"HopperRecipeCustomMetalAmount": {
+			"AllowBlank": false,
+			"Default": "1",
+            "Section": "Recipe"
+		},
+		"HopperRecipeCustomPowerType": {
+			"AllowValues": "910, 787, 330, 0",
+			"Default": "910",
+            "Section": "Recipe"
+		},
+		"HopperRecipeCustomPowerAmount": {
+			"AllowBlank": false,
+			"Default": "1",
+            "Section": "Recipe"
+		},
     },
 	"DynamicTokens": [
       {
+		  "Name": "RecipeWood",
+		  "Value": ""
+	  },
+	  {
+		  "Name": "RecipeWood",
+		  "Value": "{{HopperRecipeCustomWoodType}} {{HopperRecipeCustomWoodAmount}}",
+		  "When": {
+            "HopperRecipeCustomWoodType": "388, 709",
+         }
+	  },
+	  {
+		  "Name": "RecipeMetal",
+		  "Value": ""
+	  },
+	  {
+		  "Name": "RecipeMetal",
+		  "Value": "{{HopperRecipeCustomMetalType}} {{HopperRecipeCustomMetalAmount}}",
+		  "When": {
+            "HopperRecipeCustomMetalType": "334, 335, 336, 337",
+         }
+	  },
+	  {
+		  "Name": "RecipePower",
+		  "Value": ""
+	  },
+	  {
+		  "Name": "RecipePower",
+		  "Value": "{{HopperRecipeCustomPowerType}} {{HopperRecipeCustomPowerAmount}}",
+		  "When": {
+            "HopperRecipeCustomPowerType": "910, 787, 330",
+         }
+	  },
+	  {
          "Name": "RecipeItems",
          "Value": "709 10 337 1 910 1" // 10 hardwood + 1 iridium bar + 1 radioactive bar
          //"When": {
