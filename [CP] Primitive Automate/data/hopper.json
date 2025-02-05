@@ -14,214 +14,15 @@
                 "HopperRemove": true
             }
         },
-        //Immediate
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries": 
-            {
-                "Hopper": "388 50 334 5/Home/275/true/default/",
-			},
-			"When": 
-			{
-                "HopperRecipe": "Budget",
-                "HopperUnlock": "Immediate"
-			}
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 335 5/Home/275/true/default/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Cheaper",
-                "HopperUnlock": "Immediate"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 336 5 330 3/Home/275/true/default/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Expensive",
-                "HopperUnlock": "Immediate"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 337 1 787 1/Home/275/true/default/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Premium",
-                "HopperUnlock": "Immediate"
-            }
-		},
-        {
-				
-			"Action": "EditData",
-			"Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 337 1 910 1/Home/275/true/default/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Vanilla",
-                "HopperUnlock": "Immediate"
-            }
-		},
-        //Farming4
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "388 50 334 5/Home/275/true/Farming 4/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Budget",
-                "HopperUnlock": "Farming4"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 335 5/Home/275/true/Farming 4/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Cheaper",
-                "HopperUnlock": "Farming4"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 336 5 330 3/Home/275/true/Farming 4/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Expensive",
-                "HopperUnlock": "Farming4"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 337 1 787 1/Home/275/true/Farming 4/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Premium",
-                "HopperUnlock": "Farming4"
-            }
-		},
-        {	
-			"Action": "EditData",
-			"Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 337 1 910 1/Home/275/true/Farming 4/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Vanilla",
-                "HopperUnlock": "Farming4"
-				}
-		},
-        //Farming9
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "388 50 334 5/Home/275/true/Farming 9/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Budget",
-                "HopperUnlock": "Farming9"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 335 5/Home/275/true/Farming 9/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Cheaper",
-                "HopperUnlock": "Farming9"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 336 5 330 3/Home/275/true/Farming 9/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Expensive",
-                "HopperUnlock": "Farming9"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 337 1 787 1/Home/275/true/Farming 9/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Premium",
-                "HopperUnlock": "Farming9"
-            }
-		},
-        {		
-			"Action": "EditData",
-			"Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 337 1 910 1/Home/275/true/Farming 9/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Vanilla",
-                "HopperUnlock": "Farming9"
-            }
-		},
         //Robin
         {
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "Carpenter", "Items" ],
             "Entries":
-            {
+			{
                 "HopperRecipe":
-                {
+				{
                     "Id": "HopperRecipe",
                     "IsRecipe": true,
                     "ItemId": "(BC)275",
@@ -231,115 +32,18 @@
             "MoveEntries": [
                 { "Id": "HopperRecipe", "BeforeId": "(F)1614" }
             ],
-            "When": 
-            {
+            "When": {
                 "HopperUnlock": "Robin"
             }
         },
-        {
+		//Recipe
+		{
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
-            "Entries":
+            "Entries": 
             {
-                "Hopper": "388 50 334 5/Home/275/true/null/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Budget",
-                "HopperUnlock": "Robin"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 335 5/Home/275/true/null/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Cheaper",
-                "HopperUnlock": "Robin"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 336 5 330 3/Home/275/true/null/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Expensive",
-                "HopperUnlock": "Robin"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 337 1 787 1/Home/275/true/null/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Premium",
-                "HopperUnlock": "Robin"
-            }
-		},
-        //Vanilla
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "388 50 334 5/Home/275/true/null/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Budget",
-                "HopperUnlock": "Vanilla"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 335 5/Home/275/true/null/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Cheaper",
-                "HopperUnlock": "Vanilla"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 336 5 330 3/Home/275/true/null/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Expensive",
-                "HopperUnlock": "Vanilla"
-            }
-		},
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries":
-            {
-                "Hopper": "709 10 337 1 787 1/Home/275/true/null/",
-			},
-			"When": 
-            {
-                "HopperRecipe": "Premium",
-                "HopperUnlock": "Vanilla"
-            }
+                "Hopper": "{{RecipeItems}}/Home/275/true/{{RecipeUnlock}}/"
+			}
 		},
     ]
 }

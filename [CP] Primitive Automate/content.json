@@ -28,6 +28,79 @@
             "Section": "Settings"
         },
     },
+	"DynamicTokens": [
+      {
+         "Name": "RecipeItems",
+         "Value": "709 10 337 1 910 1" // 10 hardwood + 1 iridium bar + 1 radioactive bar
+         //"When": {
+         //   "HopperRecipe": "Vanilla",
+         //}
+      },
+      {
+         "Name": "RecipeItems",
+         "Value": "388 50 334 5", // 50 wood + 5 copper bar
+         "When": {
+            "HopperRecipe": "Budget",
+         }
+      },
+      {
+         "Name": "RecipeItems",
+         "Value": "709 10 335 5", // 10 hardwood + 5 iron bar
+         "When": {
+            "HopperRecipe": "Cheaper",
+         }
+      },
+      {
+         "Name": "RecipeItems",
+         "Value": "709 10 336 5 330 3", // 10 hardwood + 5 gold bar + 3 clay
+         "When": {
+            "HopperRecipe": "Expensive",
+         }
+      },
+      {
+         "Name": "RecipeItems",
+         "Value": "709 10 337 1 787 1", // 10 hardwood + 1 iridium bar + 1 battery pack
+         "When": {
+            "HopperRecipe": "Premium",
+         }
+      },
+      {
+         "Name": "RecipeItems",
+         "Value": "{{RecipeWood}} {{RecipeMetal}} {{RecipePower}}",
+         "When": {
+            "HopperRecipe": "Custom",
+         }
+      },
+	  {
+         "Name": "RecipeUnlock",
+         "Value": "null"
+         //"When": {
+         //   "HopperUnlock": "Vanilla",
+		 //   "HopperUnlock": "Robin",
+         //}
+      },
+      {
+         "Name": "RecipeUnlock",
+         "Value": "default",
+         "When": {
+            "HopperUnlock": "Immediate",
+         }
+      },
+      {
+         "Name": "RecipeUnlock",
+         "Value": "Farming 4",
+         "When": {
+            "HopperUnlock": "Farming4",
+         }
+      },
+      {
+         "Name": "RecipeUnlock",
+         "Value": "Farming 9",
+         "When": {
+            "HopperUnlock": "Farming9",
+         }
+      }
+   ],
     "Changes": [
 		{
 			"Action": "Include",
