@@ -1,7 +1,7 @@
 {
     "Name": "Primitive Automate",
     "Author": "Stultzyboi",
-    "Version": "1.0.2-unofficial.1-NCarigon",
+    "Version": "1.0.2-unofficial.2-NCarigon",
     "Description": "Changes the underutilized hopper to be an early game item with a cheaper recipe. Highly Configurable",
     "UniqueID": "Stultzyboi.PrimitiveAutomate",
     "UpdateKeys": [ "Nexus:29973" ],
