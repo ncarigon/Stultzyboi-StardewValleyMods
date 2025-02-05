@@ -1,0 +1,25 @@
+{
+    //Config
+    //HopperEnable
+    "config.HopperEnable.name": "Enable Changes",
+    "config.HopperEnable.description": "Enable changes to the vanilla hopper.",
+    //HopperUnlock
+    "config.HopperUnlock.name": "Unlock Conditions",
+    "config.HopperUnlock.description": "How the hopper recipe will be learned by the player.",
+    "config.HopperUnlock.values.Immediate": "Start With Recipe",
+    "config.HopperUnlock.values.Farming4": "Farming Lvl 4",
+    "config.HopperUnlock.values.Farming9": "Farming Lvl 9",
+    "config.HopperUnlock.values.Robin": "Buy From Robin",
+    "config.HopperUnlock.values.Vanilla": "Vanilla / No Change",
+    //HopperRecipe
+    "config.HopperRecipe.name": "Recipe Cost",
+    "config.HopperRecipe.description": "What the hopper will cost to craft.",
+    "config.HopperRecipe.values.Budget": "Copper & Wood",
+    "config.HopperRecipe.values.Cheaper": "Iron & Hardwood",
+    "config.HopperRecipe.values.Expensive": "Gold & Clay",
+    "config.HopperRecipe.values.Premium": "Iridium & Battery",
+    "config.HopperRecipe.values.Vanilla": "Vanilla / No Change",
+    //HopperRemove
+    "config.HopperRemove.name": "Remove Buyable Hoppers",
+    "config.HopperRemove.description": "Removes the ability to purchase hoppers from Qi's Gem Shop (The regular item, not the recipe)",
+}

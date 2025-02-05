@@ -1,0 +1,33 @@
+{
+    "Format": "2.4.0",
+    "ConfigSchema": {
+        // Hopper Options
+        "HopperEnable": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "Hopper Settings"
+        },
+        "HopperUnlock": {
+            "AllowValues": "Immediate, Farming4, Farming9, Robin, Vanilla",
+            "Default": "Farming4",
+            "Section": "Hopper Settings"
+        },
+        "HopperRecipe": {
+            "AllowValues": "Budget, Cheaper, Expensive, Premium, Vanilla",
+            "Default": "Cheaper",
+            "Section": "Hopper Settings"
+        },
+        "HopperRemove": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "Hopper Settings"
+        }
+    },
+    "Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "data/hopper.json",
+			"When": {"HopperEnable": true}
+		}
+    ]
+}
